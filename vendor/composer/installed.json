@@ -1,0 +1,51 @@
+{
+    "packages": [
+        {
+            "name": "wpboilerplate/wpb-register-blocks",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WPBoilerplate/wpb-register-blocks.git",
+                "reference": "7ef4f2212e4567a8487c90069c62337893133fc9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WPBoilerplate/wpb-register-blocks/zipball/7ef4f2212e4567a8487c90069c62337893133fc9",
+                "reference": "7ef4f2212e4567a8487c90069c62337893133fc9",
+                "shasum": ""
+            },
+            "time": "2025-06-12T13:31:11+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "index.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WPBoilerplate"
+                }
+            ],
+            "description": "Composer to autoload the Blocks in Plugins",
+            "homepage": "https://github.com/WPBoilerplate/wpb-register-blocks",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/WPBoilerplate/wpb-register-blocks/issues",
+                "source": "https://github.com/WPBoilerplate/wpb-register-blocks/tree/main"
+            },
+            "install-path": "../wpboilerplate/wpb-register-blocks"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

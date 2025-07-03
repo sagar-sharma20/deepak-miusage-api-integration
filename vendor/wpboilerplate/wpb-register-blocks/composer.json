@@ -1,0 +1,22 @@
+{
+    "name": "wpboilerplate/wpb-register-blocks",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "description": "Composer to autoload the Blocks in Plugins",
+    "homepage": "https://github.com/WPBoilerplate/wpb-register-blocks",
+    "keywords": [
+        "wordpress",
+        "plugin"
+    ],
+    "autoload": {
+        "files": ["index.php"]
+    },
+    "support": {
+        "issues": "https://github.com/WPBoilerplate/wpb-register-blocks/issues"
+    },
+    "authors": [
+        {
+            "name": "WPBoilerplate"
+        }
+    ]
+}

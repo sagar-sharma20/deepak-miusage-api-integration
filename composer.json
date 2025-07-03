@@ -1,0 +1,30 @@
+{
+    "name": "wpboilerplate/deepak-miusage-api-integration",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "description": "Composer to autoload the condition checking for which this add-on is made",
+    "homepage": "https://github.com/WPBoilerplate/",
+    "minimum-stability": "dev",
+    "require": {
+        "wpboilerplate/wpb-register-blocks": "dev-main"
+    },
+    "keywords": [
+        "wordpress",
+        "plugin"
+    ],
+    "support": {
+        "issues": "https://github.com/wpboilerplate/deepak-miusage-api-integration/issues"
+    },
+    "authors": [
+        {
+            "name": "WPBoilerplate"
+        }
+    ],
+	"autoload": {
+		"classmap": [
+			"includes/",
+			"admin/",
+			"public/"
+		]
+	}
+}
