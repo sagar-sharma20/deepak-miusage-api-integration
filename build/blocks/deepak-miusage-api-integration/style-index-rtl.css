@@ -1,1 +1,62 @@
-.wp-block-create-block-deepak-miusage-api-integration{background-color:#21759b;color:#fff;padding:2px}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/deepak-miusage-api-integration/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-create-block-deepak-miusage-api-integration {
+  background-color: #21759b;
+  color: #fff;
+  padding: 2px;
+}
+
+.miusage-table-block {
+  font-family: "Inter", sans-serif;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  overflow-x: auto;
+}
+
+.miusage-table-block table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #1f2937;
+}
+
+.miusage-table-block thead th {
+  background-color: #f9fafb;
+  color: #111827;
+  font-weight: 600;
+  padding: 14px 18px;
+  text-align: right;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.miusage-table-block tbody td {
+  padding: 14px 18px;
+  border-bottom: 1px solid #f1f1f1;
+  transition: background-color 0.2s ease;
+}
+
+/* Zebra rows */
+.miusage-table-block tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Hover effect */
+.miusage-table-block tbody tr:hover {
+  background-color: #f1f5f9;
+  cursor: default;
+}
+
+/* 🟦 Highlight date cell */
+.miusage-table-block tbody td:last-child {
+  font-weight: 600;
+  color: #1d4ed8;
+}
